@@ -1,0 +1,32 @@
+{
+  "name": "simpleapitest",
+  "version": "1.0.0",
+  "description": "API Test of online API reqres.in using Mocha, Chai and Supertest",
+  "main": "test/index.test.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint-and-fix": "eslint . --ext .js --fix",
+    "test": "mocha --no-config",
+    "report": "mocha"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai",
+    "Supertest",
+    "API Test",
+    "Reqres.in"
+  ],
+  "author": "Sunpreet Singh Rathor",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-mocha": "^10.1.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "supertest": "^6.3.3"
+  }
+}

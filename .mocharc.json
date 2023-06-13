@@ -1,0 +1,11 @@
+{
+  "reporter": "mochawesome",
+  "spec": "test/*.test.js",
+  "reporterOption": [
+    "reportDir=Web_Report",
+    "reportFilename=html_report",
+    "reportTitle=reqres Report",
+    "reportPageTitle=Reqres HTML Report",
+    "overwrite=true"
+  ]
+}
