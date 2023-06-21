@@ -6,7 +6,15 @@ Simple API Test is an API Test of the online REST API [reqres.in](https://reqres
 
 ## Installation
 
-Download the package and unzip it.
+Download the package from [Github](https://github.com/rathorsunpreet/SimpleAPITest) and unzip it.
+
+```console
+# Installs dependencies
+npm install
+
+# If the above does not work, then
+npm install --only=dev
+```
 
 ## Usage
 
