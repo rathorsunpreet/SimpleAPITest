@@ -1,5 +1,3 @@
-# Note: This project is no longer under active development.
-
 # Simple API Test
 
 Simple API Test is an API Test of the online REST API [reqres.in](https://reqres.in).
